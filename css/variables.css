@@ -1,0 +1,13 @@
+/* :root {
+    --li-yellow: #ffce76;
+} */
+
+
+/*highlight color*/
+::selection {
+    background: rgba(65, 207, 226, 0.88);
+}
+
+::-moz-selection {
+    background: rgba(65, 207, 226, 0.88);
+}

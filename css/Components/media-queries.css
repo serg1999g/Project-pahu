@@ -1,0 +1,685 @@
+@media (max-width: 575.98px) {
+    /* -------------------- header --------------------- */
+
+    .header-logo {
+        padding-bottom: 22px;
+        justify-content: center;
+    }
+
+    .wrapper-header-icons {
+        align-items: unset;
+        padding-top: 16px;
+    }
+
+    .navbar-menu li,
+    .navbar-menu li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .navbar-menu li .navbar-link-active::before,
+    .navbar-menu li a:hover::before {
+        display: none;
+    }
+
+    .wrapper-header-icons {
+        margin: 0;
+        margin-right: 10px;
+        justify-content: flex-end;
+    }
+
+    /* ----------- section-slider-welcome-to-pahu-design ----------- */
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption h5 {
+        font-size: 12px;
+    }
+
+    div.title-welcome-to-pahu-design {
+        padding-left: 0px;
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    div.title-welcome-to-pahu-design::before {
+        display: none;
+    }
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption {
+        margin-left: 50px;
+    }
+
+    span.carousel-control-prev-icon,
+    span.carousel-control-next-icon {
+        display: block;
+    }
+
+    div.control-prev-icon {
+        display: none;
+        margin: 0;
+    }
+
+    div.control-next-icon {
+        display: none;
+        margin: 0;
+    }
+
+
+
+    /* ----------------- section-why-choose-us ----------------- */
+
+    div.line-wrapper-and-rhombus-header {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transform: translateX(-50%) rotate(0deg);
+        left: 26%;
+    }
+
+    div.left-header-line {
+        position: absolute;
+        left: 131px;
+        top: 66px;
+        width: 100px;
+        height: 1px;
+        background-color: #5e5e5d;
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    div.right-header-line {
+        position: absolute;
+        left: 266px;
+        top: 66px;
+        width: 100px;
+        height: 1px;
+        background-color: #5e5e5d;
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    div.wrap-why-choose-us-title {
+        font-size: 25px;
+    }
+
+    .wrap-left-block:last-child {
+        margin-bottom: 30px;
+    }
+
+    .wrap-right-block:first-child {
+        margin-top: 30px;
+    }
+
+    .armchair-img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .armchair-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+
+
+    /* ------------------ section-project-offer ---------------- */
+
+    div.patio-furniture-vietnam-text,
+    div.jarnet-park-text,
+    div.ceramics-text {
+        padding-left: 20px;
+    }
+
+    div.patio-furniture-vietnam-title,
+    div.jarnet-park-title,
+    div.ceramics-title {
+        font-size: 25px;
+    }
+
+    div.patio-furniture-vietnam-descr a,
+    div.jarnet-park-descr a,
+    div.ceramics-descr a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    div.wrapper-apple-img {
+        justify-content: flex-end;
+    }
+
+
+
+    /* ------------------ section-our-collection ---------------- */
+
+    div.our-collection-title {
+        font-size: 24px;
+    }
+
+    /* --------------------- section-our-designer ---------------------- */
+
+    .wrapper-designer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    div.designer-photo::before {
+        left: -40px;
+        top: 110px;
+    }
+
+    div.designer-name::after {
+        width: 120px;
+    }
+
+    div.designer-name {
+        font-size: 20px;
+    }
+
+    div.our-designer-title {
+        font-size: 24px;
+    }
+
+    div.our-designer-title::before {
+        left: 48px;
+        width: 100px;
+    }
+
+    div.our-designer-title::after {
+        left: 182px;
+        width: 100px;
+    }
+
+
+
+
+    /* ---------------- section-our-project-slider -------------- */
+
+    div.modern-living-room-title {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+
+    div.living-room-descr {
+        font-size: 9px;
+        letter-spacing: 1px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+
+
+
+
+
+    /* ------------------ section-our-project ---------------------- */
+
+    div.our-project-title {
+        font-size: 24px;
+    }
+
+    div.our-project-title::before {
+        left: 47px;
+        width: 100px;
+    }
+
+    div.our-project-title::after {
+        left: 180px;
+        width: 100px;
+    }
+
+
+
+    /* -------------- section-from-our-blog ---------------- */
+
+    div.from-our-blog-title {
+        font-size: 24px;
+    }
+
+    div.wrapper-projects-of-our-blog {
+        margin-bottom: 30px;
+
+    }
+
+    /* --------------------- footer ----------------------- */
+
+    div.wrapper-logo-social-networks {
+        margin-bottom: 30px;
+    }
+
+
+    div.wrap-hours-work {
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* -------------------- header --------------------- */
+
+    .header-logo {
+        padding-bottom: 22px;
+        justify-content: center;
+    }
+
+    .wrapper-header-icons {
+        align-items: unset;
+        padding-top: 16px;
+    }
+
+    .navbar-menu li,
+    .navbar-menu li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .navbar-menu li .navbar-link-active::before,
+    .navbar-menu li a:hover::before {
+        display: none;
+    }
+
+    .wrapper-header-icons {
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    /* ----------- section-slider-welcome-to-pahu-design ----------- */
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption h5 {
+        font-size: 22px;
+    }
+
+    div.title-welcome-to-pahu-design {
+        padding-left: 25px;
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+
+    div.title-welcome-to-pahu-design::before {
+        width: 16px;
+    }
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption {
+        margin-left: 60px;
+    }
+
+    span.carousel-control-prev-icon,
+    span.carousel-control-next-icon {
+        display: block;
+    }
+
+    div.control-prev-icon {
+        display: none;
+        margin: 0;
+    }
+
+    div.control-next-icon {
+        display: none;
+        margin: 0;
+    }
+
+
+    /* --------------------- section-why-choose-us --------------------- */
+    .wrap-left-block:last-child {
+        margin-bottom: 30px;
+    }
+
+    .wrap-right-block:first-child {
+        margin-top: 30px;
+    }
+
+
+
+    /* --------------- section-project-offer ----------------------- */
+
+    div.patio-furniture-vietnam-text,
+    div.jarnet-park-text,
+    div.ceramics-text {
+        padding-left: 20px;
+    }
+
+    div.wrapper-apple-img {
+        justify-content: flex-end;
+    }
+
+
+    /* --------------------- section-our-designer ---------------------- */
+
+    .wrapper-designer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+
+    /* ---------------- section-our-project-slider -------------- */
+
+    div.modern-living-room-title {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+
+    div.living-room-descr {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    /* -------------- section-from-our-blog ---------------- */
+
+    div.wrapper-projects-of-our-blog {
+        margin-bottom: 30px;
+
+    }
+
+    /* --------------------- footer ----------------------- */
+
+    div.wrapper-logo-social-networks {
+        margin-bottom: 30px;
+    }
+
+    div.wrap-hours-work {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* -------------------- header --------------------- */
+
+
+    .header-logo {
+        padding-bottom: 22px;
+        justify-content: center;
+    }
+
+    .wrapper-header-icons {
+        align-items: unset;
+        padding-top: 16px;
+    }
+
+    .navbar-menu li,
+    .navbar-menu li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .navbar-menu li .navbar-link-active::before,
+    .navbar-menu li a:hover::before {
+        display: none;
+    }
+
+    .wrapper-header-icons {
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    /* ----------- section-slider-welcome-to-pahu-design ----------- */
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    div.title-welcome-to-pahu-design {
+        padding-left: 40px;
+        font-size: 15px;
+    }
+
+    div.title-welcome-to-pahu-design::before {
+        width: 30px;
+    }
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption {
+        margin-left: 90px;
+    }
+
+    span.carousel-control-prev-icon,
+    span.carousel-control-next-icon {
+        display: block;
+    }
+
+    div.control-prev-icon {
+        display: none;
+        margin: 0;
+    }
+
+    div.control-next-icon {
+        display: none;
+        margin: 0;
+    }
+
+
+
+
+    /* ---------------------- section-why-choose-us ------------------- */
+
+
+    .wrap-left-block:last-child {
+        margin-bottom: 30px;
+    }
+
+    .wrap-right-block:first-child {
+        margin-top: 30px;
+    }
+
+
+    /* --------------- section-project-offer ----------------------- */
+
+    div.patio-furniture-vietnam-text,
+    div.jarnet-park-text,
+    div.ceramics-text {
+        padding-left: 20px;
+    }
+
+    div.wrapper-apple-img {
+        justify-content: flex-end;
+    }
+
+
+    /* --------------------- section-our-designer ---------------------- */
+
+    div.designer-photo::before {
+        top: 100px;
+        left: -26px;
+    }
+
+    div.designer-name {
+        font-size: 20px;
+    }
+
+    div.designer-name::after {
+        width: 70px;
+    }
+
+
+    /* ---------------- section-our-project-slider -------------- */
+
+    div.modern-living-room-title {
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    div.living-room-descr {
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    /* -------------- section-from-our-blog ---------------- */
+
+    div.wrapper-projects-of-our-blog {
+        margin-bottom: 30px;
+
+    }
+
+
+
+    /* --------------------- footer ----------------------- */
+
+    div.wrapper-logo-social-networks {
+        margin-bottom: 30px;
+    }
+
+    div.wrap-hours-work {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ---------------------- header ----------------------- */
+
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    div.navbar-nav li {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .wrapper-header-icons {
+        margin: 0;
+    }
+
+    .header-logo {
+        align-items: unset;
+        padding-top: 14px;
+    }
+
+    .wrapper-header-icons {
+        align-items: unset;
+        padding-top: 16px;
+    }
+
+    .navbar-menu li,
+    .navbar-menu li:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .navbar-menu li .navbar-link-active::before,
+    .navbar-menu li a:hover::before {
+        display: none;
+    }
+
+    div.navbar-collapse {
+        text-align: end;
+    }
+
+
+
+    /* ----------- section-slider-welcome-to-pahu-design ----------- */
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption h5 {
+        font-size: 40px;
+    }
+
+    div.title-welcome-to-pahu-design {
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    div.title-welcome-to-pahu-design::before {
+        width: 45px;
+    }
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption {
+        margin-left: 100px;
+    }
+
+
+
+    /* --------------------- section-our-designer ---------------------- */
+
+    div.designer-name::after {
+        width: 100px;
+    }
+
+
+
+    /* ---------------- section-our-project-slider -------------- */
+
+    div.modern-living-room-title {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    div.living-room-descr {
+        font-size: 16px;
+        letter-spacing: 6px;
+    }
+
+
+    /* ----------------- sectin-for-our-blog ------------------- */
+
+
+    div.projects-of-our-blog-title {
+        font-size: 17px;
+    }
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1172px;
+    }
+}
+
+
+@media (min-width: 1200.98px) and (max-width: 1500.98px) {
+
+    /* ------------- header ------------- */
+
+    .wrapper-header-icons {
+        margin-left: 43px;
+    }
+
+
+
+    /* ----------- section-slider-welcome-to-pahu-design ----------- */
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption h5 {
+        font-size: 50px;
+    }
+
+    div.title-welcome-to-pahu-design {
+        padding-left: 60px;
+        font-size: 24px;
+    }
+
+    div.title-welcome-to-pahu-design::before {
+        width: 45px;
+    }
+
+    section.section-slider-welcome-to-pahu-design .carousel-caption {
+        margin-left: 140px;
+    }
+
+
+
+    /* ---------------- section-our-project-slider -------------- */
+
+    div.modern-living-room-title {
+        font-size: 25px;
+        padding-left: 45px;
+        padding-right: 46px;
+    }
+
+}

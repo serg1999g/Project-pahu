@@ -1,0 +1,115 @@
+.header {
+    background-color: #181817;
+    padding-top: 34px;
+    padding-bottom: 31px;
+}
+
+.wrapper-header-icons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 58px;
+    color: #fafafa;
+}
+
+.header-heart {
+    margin-left: 30px;
+}
+
+.header-shopping {
+    margin-left: 22px;
+}
+
+.navbar-menu li a {
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fefefe;
+    position: relative;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.navbar-menu li:not(:first-child) {
+    margin-left: 54px;
+}
+
+.header-logo a {
+    outline: none;
+}
+
+.wrapper-header-icons a {
+    outline: none;
+}
+
+.navbar-menu li a:hover::before {
+    content: '';
+    position: absolute;
+    width: 41px;
+    height: 4px;
+    top: 57px;
+    left: 0;
+    background-color: #ffce76;
+}
+
+.navbar-menu li .navbar-link-active::before {
+    content: '';
+    position: absolute;
+    width: 41px;
+    height: 4px;
+    top: 57px;
+    left: 0;
+    background-color: #ffce76;
+}
+
+.navbar-menu li a:hover {
+    color: #ffce76;
+    outline: none;
+}
+
+.navbar-menu li {
+    margin-left: 67px;
+}
+
+.header-shopping {
+    position: relative;
+}
+
+.purchases {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    top: -13px;
+    right: -16px;
+    width: 20px;
+    height: 20px;
+    background-color: #dd9c27;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.purchases:hover{
+    background-color: #ffb732;
+    transition: 0.2s;
+}
+
+.purchases a{
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar button {
+    outline: none;
+}
