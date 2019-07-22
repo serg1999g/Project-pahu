@@ -503,7 +503,6 @@ body {
     justify-content: center;
 }
 
-
 .wrapper-product {
     position: relative;
     width: 272px;
@@ -546,11 +545,6 @@ body {
 
 .product-new-text {
     transform: rotate(-45deg);
-}
-
-.wrapper-product:hover .wrapper-product-new,
-.wrapper-product:hover .wrapper-product-new-text {
-    display: none;
 }
 
 .wrapper-product-new-text {
